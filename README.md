@@ -1,81 +1,62 @@
-# Nuxt Starter
+### **README.md** - Update to:
 
-![Netlify + Nuxt Starter Preview](nuxt-starter-preview.jpg)
+```markdown
+# Stay Dripped IV Website
 
----
-
-Nuxt Starter is a minimal template designed for creating quick landing pages, built with Nuxt 3 and Tailwind CSS.
-
-**View demo:** [https://demo-nuxt-starter.netlify.app/](https://demo-nuxt-starter.netlify.app/)
-
-## Deploy to Netlify
-
-Want to deploy immediately? Click this button
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nuxt-starter)
-
-Clicking this button will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+Premium mobile IV therapy website for Stay Dripped IV - Arizona's leading mobile wellness service.
 
 ## Features
+- Mobile-responsive design
+- Real customer testimonials
+- Online booking integration
+- Arizona-themed branding
 
-- 🚀 Nuxt 3 with Vue 3
-- 🎨 Tailwind CSS for styling
-- 🖼️ Nuxt Image for optimized image handling
-- 🎯 Nuxt Icon for easy icon integration
-- 📱 Fully responsive design
-- ⚡ Fast and optimized performance
-
-A customizable Nuxt starter using:
-
-- [Nuxt](https://nuxt.com/) v3.x
-- [Tailwind CSS](https://tailwindcss.com/) v4.x
-- [Nuxt Icon](https://nuxt.com/modules/icon)
-- [Nuxt Image](https://nuxt.com/modules/image)
-
-| Prerequisites             |
-| :------------------------ |
-| [Node.js](https://nodejs.org/) v20.9+. |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
-
-
-## Build Setup
-
+## Development
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-
-# generate static project
-$ npm run generate
-
-# preview production build locally
-$ npm run preview
+npm install
+npm run dev
 ```
 
-## Project Structure
+## Deployment
+
+Deployed via Netlify to staydrippediv.com
 
 ```
-├── data/            # JSON file for content
-├── components/      # Vue components
-├── layouts/         # Layout components
-├── pages/           # Application pages
-├── public/          # Static files
-└── assets/          # Assets that need processing
+### **.gitignore** - Make sure it includes:
 ```
 
-## Next Steps
+node_modules
+.nuxt
+.output
+dist
+.env
+.DS_Store
 
-Here are a few suggestions on what to do next:
+```
+## **📁 ADD These Folders/Files:**
+```
 
-- Check [Nuxt on Netlify documentation](https://docs.netlify.com/frameworks/nuxt/).
-- Check [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-- Explore [Tailwind CSS documentation](https://tailwindcss.com/docs) for styling options
+📁 components/           (All your .vue components)
+📁 layouts/             (default.vue)
+📁 pages/               (index.vue)
+📁 assets/css/          (main.css)
 
-## Support
+```
+## **🔄 Final Structure Should Be:**
+```
 
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+your-repo/
+├── .gitignore          ✅ Edit
+├── LICENSE             ✅ Keep
+├── README.md           ✅ Edit  
+├── netlify.toml        ✅ Replace
+├── nuxt.config.ts      ✅ Replace
+├── package.json        ✅ Replace
+├── assets/css/main.css ➕ Add
+├── components/         ➕ Add (all .vue files)
+├── layouts/default.vue ➕ Add
+├── pages/index.vue     ➕ Add
+└── server/tsconfig.json ✅ Keep (already done)
+
+```
+**Delete the starter files and replace with our Stay Dripped IV files!** 🚀​​​​​​​​​​​​​​​​
