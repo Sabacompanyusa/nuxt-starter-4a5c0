@@ -19,7 +19,6 @@
       <span v-if="showSubtext" :class="subtextClass">MOBILE IV SERVICE</span>
     </NuxtLink>
 
-```
 <!-- Banner Logo -->
 <NuxtLink 
   v-else-if="variant === 'banner'" 
@@ -108,7 +107,6 @@
     class="object-contain"
   >
 </NuxtLink>
-```
 
   </div>
 </template>

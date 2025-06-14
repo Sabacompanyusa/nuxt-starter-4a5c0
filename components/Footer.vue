@@ -19,7 +19,6 @@
           </div>
         </div>
 
-```
     <!-- Quick Links -->
     <div>
       <h4 class="text-lg font-semibold mb-4 text-blue-400">Quick Links</h4>
@@ -71,7 +70,6 @@
     </div>
   </div>
 </div>
-```
 
   </footer>
 </template>

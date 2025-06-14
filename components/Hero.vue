@@ -7,7 +7,6 @@
       </div>
     </div>
 
-```
 <div class="relative z-10 px-5 mx-auto max-w-7xl py-20 lg:py-32">
   <div class="text-center">
     <!-- Main Heading -->
@@ -61,7 +60,6 @@
     <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
   </div>
 </div>
-```
 
   </section>
 </template>
