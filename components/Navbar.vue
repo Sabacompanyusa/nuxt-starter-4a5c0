@@ -3,7 +3,6 @@
     <div class="px-5 mx-auto max-w-7xl">
       <div class="flex items-center justify-between h-16 lg:h-20">
 
-```
     <!-- Logo -->
     <div class="flex-shrink-0">
       <NuxtLink to="/" class="flex items-center space-x-2">
@@ -153,7 +152,6 @@
     </div>
   </div>
 </div>
-```
 
   </nav>
 </template>
